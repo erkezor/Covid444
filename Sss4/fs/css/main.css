@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Suez+One&display=swap');
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0dcaf0;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  background-blend-mode: multiply;
+  background-color: white;
+  background-size: cover;
+}
+
+#preloder {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  background: #000;
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  border-radius: 60px;
+  animation: loader 0.8s linear infinite;
+  -webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border: 4px solid #673ab7;
+    border-left-color: transparent;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    border: 4px solid #673ab7;
+    border-left-color: transparent;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+}
+
+.textt h1 {
+	text-align: center;
+	margin-top: 40px;
+	color: black;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+}
+
+.sl {
+	vertical-align: middle;
+	background-size: cover;
+	margin-top: 500px;
+	width: 100%;
+	background-size: cover;
+}
+
+.reg {
+	text-align: center;
+	margin-top: 60px;
+}
+
+#bott {
+	float: left;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+	width: 100%;
+	text-align: center;
+	background-color: #E3DEDD;
+	opacity: 1;
+	background-size: 100%;
+	font-family: SuezOne;
+  background-image: url(http://www.rosphoto.com/images/u/articles/1510/11_2.jpg);
+}
+
+#bott span {
+	float: left;
+	width: 100%;
+	font-size: 2em;
+	margin-top: 10px;
+  color: black;
+}
+
+#bott h2 {
+	font-size: 4em;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+  color: black;
+}
+
+.reg h1 {
+	font-size: 4em;
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	color: white;
+}
+
+.sshp .card {
+	line-height: 5px;
+}
+
+.mb-3 {
+	color: white;
+}
+
+.submit {
+	color: white;
+}
+
+#f{
+  background: #2d2d2d;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background-size: cover;
+  text-align: center;
+  background-size: 100%;
+  width: 100%;
+  word-spacing: 2em;
+}
+
+#f i {
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 10px;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+#f i:hover {
+  color: #ff7878;
+}
+
+.row {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row img {
+	width: 100%;
+}
+
+.sponge .container {
+  text-align: center;
+  padding: 50px 50px;
+}
+.sponge {
+  font-size: ;
+}
+
+.row .col img {
+	padding: 25px 25px;
+	width: 380px;
+	height: 280px;
+}
+
+.row .col .text {
+	color: green;
+	font-size: 2em;
+
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+#services{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9a/%D0%A4%D0%BE%D1%82%D0%BE-1487.jpg);
+  background-repeat: no-repeat;
+  background-color: #E3DEDD;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 40px;
+}
+
+#services .icon-box {
+    border: 1px solid #383838;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+#services .icon-box .icon{
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #ffc451;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+
+#services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#services h2 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+#services p {
+    font-size: 1em;
+    font-family: SuezOne;
+    color: black;
+    text-align: center;
+}
+
+#dsf{
+  background-repeat: no-repeat;
+  background-color: #E3DEDD;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(https://www.superiorwallpapers.com/images/lthumbs/2018-08/12757_Wonderful-blue-clear-mountain-water-Fresh-air-beautiful-view.jpg);
+}
+
+#slides{
+  position: relative;
+  left: 140px;
+  top: 50px;
+  height: 600px;
+  width: 1200px;
+  border: 2px solid silver;
+  list-style-type: none;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0; 
+  z-index: 1;
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing{
+  opacity: 1;
+  z-index: 2;
+}
+.slide{
+  font-size: 40px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #333;
+  color: #008B8B;
+  text-align: center;
+}
+
+.slide:nth-of-type(1){
+  background-image: url(https://images.everydayhealth.com/images/coronavirus/covid-19-smell-and-taste-loss-1440x810.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide:nth-of-type(2){
+  background-image: url(https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/07/GettyImages-1225552419_header-1024x575.jpg?w=1155&h=1528);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide:nth-of-type(3){
+  background-image: url(https://post.healthline.com/wp-content/uploads/2020/09/man_fatigue-732x549-thumbnail-732x549.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.gg{
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+#r .container {
+  padding-bottom: 50px;
+}
+
+#r .container .ssshp {
+  position: absolute;
+  top: 40%;
+  left: 16%;
+  transform: translate(-40%, -16%);
+  -ms-transform: translate(-40%, -16%);
+}
+
+#r .container .sshp {
+  position: absolute;
+  top: 40%;
+  left: 16%;
+  transform: translate(-40%, -16%);
+  -ms-transform: translate(-40%, -16%);
+}
+
+#r .container .sssshp {
+  position: absolute;
+  top: 40%;
+  left: 16%;
+  transform: translate(-40%, -16%);
+  -ms-transform: translate(-40%, -16%);
+}
+
+#shoppf {
+  background-repeat: no-repeat;
+  background-color: #E3DEDD;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(https://www.iaea.org/sites/default/files/styles/original_image_size/public/rrt-pcr-1140x640.jpg?itok=e2XhXmmx);
+}
+
+.gsa .text{
+  text-align: center;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed',  sans-serif;
+
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1100PX;
+    width: 100%;
+}
+
+.intro-img  {
+    background-image: url(photo/career-advice-image.jpg);
+    width: 1500px;
+    height: 640px;
+}
+.intro { 
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.intro .intro-text{
+    position: absolute;
+    font-size: 62px;
+    right: 750px;
+    top: 220px;
+}
+
+
+.intro-contacts{
+    background-color: #ffcc01;
+    max-width: 590px;
+    position: absolute;
+    right: 170px;
+    top: 638px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.intro-contacts i{
+    color: #fff;
+    margin-right: 30px;
+}
+.intro-contacts p {
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.steps h2{
+margin-top: 55px;
+font-size: 40px;
+margin-bottom: 35px;
+}
+
+.steps-text {
+    line-height: 27px;
+    font-size: 13px;
+}
+.mbtext {
+    margin-bottom: 70px;
+}
+
+
+.stepblock {
+    width: 340px;
+    height: 370px;
+    background: #fff;
+    box-shadow:  0 0 20px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.stepblock .step-num  {
+    font-size: 200px;
+    position: relative;
+    top: -120px;
+    left: -30px;
+}
+
+.stepblock:hover {
+    background: #ffcc01;
+    color: #fff;
+}
+
+.steps-container {
+    margin-bottom: 50px;
+display: flex;
+justify-content: space-between;
+}
+
+.stepblock h4 {
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+.stepblock h4 span{
+    margin-right: 15px;
+}
+
+.stepblock .step-info {
+    margin-left: 70px;
+    line-height: 29px;
+}
+
+.stepblock .stepinfolast {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 20px;
+    border-bottom: 3px solid #000;
+}
+
+
+.serv-container {
+    display: flex;
+    margin-top: 70px;
+}
+
+.services img{
+width: 100%;
+height: auto;
+}
+
+.serv-img-container{
+    width: 58%;
+}
+
+.serv-text {
+    width: 42%;
+    margin-left: 3%;
+}
+
+.serv-text p{
+    margin-bottom: 60px;
+}
+
+.services h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.services p{
+    font-size: 13px;
+    line-height: 26px;
+}
+
+.services h4{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+
+#bth
+{ 
+    text-decoration:none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+}
